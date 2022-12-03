@@ -1,13 +1,17 @@
 {
   "name": "romaji-to-kana-converter",
   "version": "0.0.1",
-  "main": "src/app.ts",
+  "main": "./dist/index.js",
+  "types": "./dist/@types/index.d.ts",
   "repository": "git@github.com:blolya/romaji-to-kana-converter.git",
   "author": "blolya <mast-94@mail.ru>",
   "license": "MIT",
+  "files": [
+    "/dist"
+  ],
   "scripts": {
     "compile": "yarn tsc",
-    "start": "node ./dist/app.js"
+    "start": "node ./dist/index.js"
   },
   "devDependencies": {
     "@types/node": "^18.11.10",
