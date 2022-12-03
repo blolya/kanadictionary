@@ -1,7 +1,2 @@
-import {findKana} from "./dictionary";
+export { findKana } from './dictionary';
 
-const main = () => {
-    console.log(findKana('A'));
-};
-
-main();
