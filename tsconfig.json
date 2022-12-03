@@ -8,15 +8,15 @@
     "strict": true,
     "skipLibCheck": true,
     "typeRoots": [
-      "node_modules/@types",
-      "src/@types"
+      "./node_modules/@types",
+      "./src/@types"
     ],
     "paths": {
       "@blolya/rtkc": ["./src/@types/"]
     }
   },
   "exclude": [
-    "node_modules",
-    "src/@types/**"
+    "./node_modules",
+    "./src/@types/**"
   ]
 }
