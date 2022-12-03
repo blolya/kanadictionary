@@ -1,7 +1,7 @@
-import {findHiragana} from "./dictionary/dictionary";
+import {dictionary} from "./dictionary";
 
 const main = () => {
-    console.log(findHiragana('あ'));
+    console.log(dictionary);
 };
 
 main();
