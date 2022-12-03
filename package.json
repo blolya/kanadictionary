@@ -1,0 +1,13 @@
+{
+  "name": "romaji-to-kana-converter",
+  "version": "0.0.1",
+  "main": "src/index.ts",
+  "repository": "git@github.com:blolya/romaji-to-kana-converter.git",
+  "author": "blolya <mast-94@mail.ru>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.11.10",
+    "@types/typescript": "^2.0.0",
+    "typescript": "^4.9.3"
+  }
+}
