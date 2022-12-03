@@ -1,7 +1,7 @@
-import {dictionary} from "./dictionary";
+import {findKana} from "./dictionary";
 
 const main = () => {
-    console.log(dictionary);
+    console.log(findKana('A'));
 };
 
 main();

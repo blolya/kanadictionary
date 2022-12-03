@@ -16,3 +16,7 @@ export const dictionary = (() => {
     }
     return dictionary;
 })();
+
+export function findKana(romaji: string): string | undefined {
+    return dictionary[romaji];
+}
