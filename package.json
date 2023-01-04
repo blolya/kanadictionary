@@ -2,7 +2,7 @@
   "name": "kanadictionary",
   "version": "0.0.1",
   "main": "./dist/index.js",
-  "types": "./dist/types.d.ts",
+  "types": "./dist/disctionary.d.ts",
   "repository": "git@github.com:blolya/kanadictionary.git",
   "author": "blolya <mast-94@mail.ru>",
   "license": "MIT",
