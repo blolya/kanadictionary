@@ -2,7 +2,7 @@
   "name": "kanadictionary",
   "version": "0.0.1",
   "main": "./dist/index.js",
-  "types": "./dist/dictionary.d.ts",
+  "types": "./dist/types.d.ts",
   "repository": "git@github.com:blolya/kanadictionary.git",
   "author": "blolya <mast-94@mail.ru>",
   "license": "MIT",
@@ -10,7 +10,7 @@
     "/dist"
   ],
   "scripts": {
-    "build": "yarn tsc",
+    "compile": "yarn tsc",
     "start": "node ./dist/index.js"
   },
   "devDependencies": {
